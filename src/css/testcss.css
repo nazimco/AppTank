@@ -1,5 +1,91 @@
 
 
+/* GLOBAL */
+
+* {
+  font-family: Impact, sans-serif !important;
+}
+
+
+
+/* ABOUT */
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 0 25px 20px 25px;
+    margin-top: 10px;
+}
+.headshot {
+  height: 500px;
+  width: 800px;
+  margin-top: 50px;
+}
+.bio > h1 {
+  font-size: 30px;
+}
+.bio > h3 {
+  margin-top: -15px;
+  font-size: 25px;
+
+}
+
+.bio > p {
+  font-size: 22px;
+    margin-bottom: -10px;
+
+}
+
+
+
+/* MUSIC */
+
+.songText1 {
+  margin-top: 30px;
+  margin-bottom: -10px;
+
+}
+
+.songText3 {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+.song {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  background: linear-gradient(black, #42e2f4)
+
+}
+.nowPlaying {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#42e2f4, black)
+
+}
+
+.songList {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+#selectBar {
+  width: 300px;
+  height: 25px;
+  border: solid white;
+}
+
+/* VIDEO */
+.vid1 {
+  display: flex;
+  justify-content: center;
+}
+
 .khaledvid1 {
   margin-top: 25px;
   margin-left: 20px;
@@ -9,28 +95,6 @@
 
 .khaledvid2 {
   border: solid white;
-
-}
-
-.nowPlaying {
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-
-}
-
-.songText1 {
-  margin-top: 30px;
-  margin-bottom: -10px;
-
-}
-
-.song {
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-    background: linear-gradient(black, #42e2f4)
 
 }
 
@@ -45,33 +109,43 @@
   border: solid white;
 }
 
+/* SOCIAL */
 
-.musicMain{
 
-}
-.songList {
+#socialmedia {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-
+  justify-content: space-around;
+  margin-top: 25px;
+  text-align: center;
 }
-#selectBar {
-  width: 300px;
-  height: 25px;
+
+.twitter {
   border: solid white;
+  width: 30%;
+  height: 600px;
 }
 
-.bio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-    background: linear-gradient(#42e2f4, black);
-    margin-top: 10px;
-
-
+.snapchat {
+  border: solid white;
+  width: 30%;
+  height: 600px;
 }
 
-.bio > p {
-  margin-bottom: -10px;
-
+.instagram {
+  border: solid white;
+  width: 30%;
+  height: 600px;
 }
+
+
+
+/* SHOP */
+
+
+
+/* EXTRA STUFF */
+
+
+
+/* MEDIA QUERY */

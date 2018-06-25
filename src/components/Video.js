@@ -35,16 +35,13 @@ class Video extends Component {
         };
      return (
        <div className="vidMain">
+         <div className="vid1">
        <YouTube className="khaledvid1"
             videoId={this.state.persons.khaled1}
             opts={opts}
             onReady={this._onReady}
           />
-       <YouTube className="khaledvid2"
-            videoId={this.state.persons.khaled2}
-            opts={opts}
-            onReady={this._onReady}
-          />
+        </div>
           <footer>
           <img className="khaledmovie" src="https://i.imgur.com/zcZAQH3.png" alt="mov" />
           </footer>

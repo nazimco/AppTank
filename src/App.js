@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Link, Route,} from 'react-router-dom';
 import {Button} from 'semantic-ui-react';
 
 import Home from './components/Home';
-import Instagram from './components/Instagram';
+import SocialMedia from './components/SocialMedia';
 import Music from './components/Music';
 import Shop from './components/Shop';
-import Twitter from './components/Twitter';
+import About from './components/About';
 import Video from './components/Video';
 
 
@@ -17,18 +17,18 @@ const App = () => {
       <Router>
       <div id="gify" className="App">
         <navigation className="NavBar">
-        <Button primary ><Link to="/home">Home</Link></Button >
-          <Button primary ><Link to="/music">Music</Link></Button >
-          <Button primary ><Link to="/video">Video</Link></Button >
-          <Button primary ><Link to="/instagram">Instagram</Link></Button >
-          <Button primary ><Link to="/twitter">Twitter</Link></Button >
-          <Button primary ><Link to="/shop">Shop</Link></Button >
+        <Link to="/home"><Button primary >Home</Button ></Link>
+        <Link to="/about"><Button primary >About</Button ></Link>
+          <Link to="/music"><Button primary >Music</Button ></Link>
+          <Link to="/video"><Button primary >Video</Button></Link>
+          <Link to="/socialmedia"><Button primary>Connect</Button ></Link>
+          <Link to="/shop"><Button primary >Shop</Button ></Link>
 
           <Route path="/music" component={Music} />
           <Route path="/home" component={Home} />
           <Route path="/video" component={Video} />
-          <Route path="/instagram" component={Instagram} />
-          <Route path="/twitter" component={Twitter} />
+          <Route path="/socialmedia" component={SocialMedia} />
+          <Route path="/about" component={About} />
           <Route path="/shop" component={Shop} />
 
         </navigation>

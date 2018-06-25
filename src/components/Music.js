@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/testcss.css';
 import axios from "axios";
-import { Player } from 'video-react';
 import YouTube from 'react-youtube';
 
 
@@ -34,10 +33,24 @@ class Music extends Component {
 
      return (
        <div className="musicMain">
-          <div className="bio">
-          <p> Dj Khaled </p>
-          <p> Genre </p>
-          <p> Lorem </p>
+         <div className="nowPlaying">
+         <h3 className="songText1">"Now Playing: Im The One"</h3>
+         </div>
+       <div className="song">
+
+
+       <YouTube className="khaledvid3"
+            videoId={this.state.persons.khaled2}
+            opts={opts}
+            onReady={this._onReady}
+          />
+          </div>
+          <div className="background-wrap">
+          <div className="nowPlaying">
+
+          <h3 className="songText2">"Artist: Dj Khaled"</h3>
+          <h3 className="songText3">"Latest Album: Grateful"</h3>
+          <h3 className="songText4">"Released: 2017"</h3>
           </div>
        <div className="songList">
        <select  id="selectBar">
@@ -53,19 +66,9 @@ class Music extends Component {
            Song3
          </option>
        </select>
+      </div>
        </div>
-       <div className="nowPlaying">
-       <h3 className="songText1">Now Playing:</h3>
 
-       <h3 className="songText2">Song1</h3>
-       </div>
-       <div className="song">
-       <YouTube className="khaledvid3"
-            videoId={this.state.persons.khaled1}
-            opts={opts}
-            onReady={this._onReady}
-          />
-          </div>
 
 
        </div>
