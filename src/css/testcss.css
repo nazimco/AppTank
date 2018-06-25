@@ -42,42 +42,26 @@
 
 /* MUSIC */
 
-.songText1 {
-  margin-top: 30px;
-  margin-bottom: -10px;
-
-}
-
-.songText3 {
-  margin-top: -15px;
-  margin-bottom: -15px;
-}
-
-.song {
+.musicMain {
   display: flex;
   justify-content: center;
+}
+
+.musicKhaled {
+  width: 100%;
+  height: 100%;
   margin-top: 25px;
-  background: linear-gradient(black, #42e2f4)
-
-}
-.nowPlaying {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: linear-gradient(#42e2f4, black)
 
 }
 
-.songList {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-
-}
-#selectBar {
-  width: 300px;
-  height: 25px;
-  border: solid white;
+.spotify {
+  margin-top: 100px;
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  left: 250px;
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
 }
 
 /* VIDEO */
@@ -88,7 +72,7 @@
 
 .khaledvid1 {
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-right: 90px;
   border: solid white;
 }
@@ -107,6 +91,23 @@
   margin-left: 70px;
   width: 90%;
   border: solid white;
+}
+
+.leftArrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 300px;
+  top: 245px;
+  -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+.rightArrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 300px;
+  top: 245px;
 }
 
 /* SOCIAL */

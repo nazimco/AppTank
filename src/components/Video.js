@@ -36,6 +36,8 @@ class Video extends Component {
      return (
        <div className="vidMain">
          <div className="vid1">
+           <img onClick="changeS" className="leftArrow" src="https://github.com/aenuros/ebay/blob/master/arrow.png?raw=true" alt="" />
+           <img className="rightArrow" src="https://github.com/aenuros/ebay/blob/master/arrow.png?raw=true" alt="" />
        <YouTube className="khaledvid1"
             videoId={this.state.persons.khaled1}
             opts={opts}

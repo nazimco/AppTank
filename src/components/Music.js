@@ -7,73 +7,29 @@ import YouTube from 'react-youtube';
 
 
 class Music extends Component {
-  state = {
-     persons: {}
-   }
-
-   componentDidMount() {
-     axios.get(`http://localhost:3000/profile/`)
-       .then(res => {
-         const persons = res.data;
-         this.setState({ persons });
-       })
-   }
-
 
 
 
    render() {
-     const opts = {
-          height: '390',
-          width: '640',
-          playerVars: {
-            autoplay: 1
-          }
-        };
+
 
      return (
        <div className="musicMain">
-         <div className="nowPlaying">
-         <h3 className="songText1">"Now Playing: Im The One"</h3>
-         </div>
-       <div className="song">
+
+  <div className="musicBackground">
 
 
-       <YouTube className="khaledvid3"
-            videoId={this.state.persons.khaled2}
-            opts={opts}
-            onReady={this._onReady}
-          />
-          </div>
-          <div className="background-wrap">
-          <div className="nowPlaying">
+<iframe className="spotify" src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DZ06evO0rer1m" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<img className="musicKhaled" src="https://wallpapersfit.com/wp-content/uploads/data/2017/11/26/DJ-Khaled-Wallpapers-HD-In-High-Definition-1WC200955.jpg" alt="key" />
 
-          <h3 className="songText2">"Artist: Dj Khaled"</h3>
-          <h3 className="songText3">"Latest Album: Grateful"</h3>
-          <h3 className="songText4">"Released: 2017"</h3>
-          </div>
-       <div className="songList">
-       <select  id="selectBar">
-         <option value="Song1">
-           Song1
-         </option>
-
-         <option value="Song2">
-           Song2
-         </option>
-
-         <option value="Song3">
-           Song3
-         </option>
-       </select>
-      </div>
-       </div>
-
+</div>
 
 
        </div>
      )
    }
  }
+
+
 
 export default Music;

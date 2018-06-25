@@ -34,7 +34,6 @@ const App = () => {
         </navigation>
 
 
-      <hr />
       </div>
     </Router>
     );
