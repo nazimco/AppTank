@@ -1,25 +1,77 @@
-/* #music {
-  height: 90vh;
-  background-image: url(https://media.giphy.com/media/228h7wzP0sYiQ/giphy.gif);
-  background-size: contain;
-} */
-/* #instagram {
-  height: 90vh;
-  background-image: url(https://media.giphy.com/media/8Fc4OjBazuOTC/giphy.gif);
-  background-size: contain;
+
+
+.khaledvid1 {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 90px;
+  border: solid white;
 }
-#shop {
-  height: 90vh;
-  background-image: url(https://media.giphy.com/media/AgYbJ0jc7wA7e/giphy.gif);
-  background-size: contain;
+
+.khaledvid2 {
+  border: solid white;
+
 }
-#twitter {
-  height: 90vh;
-  background-image: url(https://media0.giphy.com/media/Pn1gZzAY38kbm/giphy-downsized.gif);
-  background-size: contain;
+
+.nowPlaying {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
 }
-#video {
-  height: 90vh;
-  background-image: url(https://media.giphy.com/media/NGALQBUgvmVTa/giphy.gif);
-  background-size: contain;
-} */
+
+.songText1 {
+  margin-top: 30px;
+  margin-bottom: -10px;
+
+}
+
+.song {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+    background: linear-gradient(black, #42e2f4)
+
+}
+
+.khaledvid3 {
+  border: solid white;
+}
+
+.khaledmovie {
+  margin-top: 20px;
+  margin-left: 70px;
+  width: 90%;
+  border: solid white;
+}
+
+
+.musicMain{
+
+}
+.songList {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+#selectBar {
+  width: 300px;
+  height: 25px;
+  border: solid white;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    background: linear-gradient(#42e2f4, black);
+    margin-top: 10px;
+
+
+}
+
+.bio > p {
+  margin-bottom: -10px;
+
+}

@@ -18,6 +18,10 @@
   text-decoration: none !important;
 }
 
+#home {
+    background: linear-gradient(black, #42e2f4, black)
+}
+
 a {
 background-color: #42e2f4;
 }

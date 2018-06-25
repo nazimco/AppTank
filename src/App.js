@@ -32,8 +32,7 @@ const App = () => {
           <Route path="/shop" component={Shop} />
 
         </navigation>
-        <section className="Main">
-        </section>
+
 
       <hr />
       </div>
