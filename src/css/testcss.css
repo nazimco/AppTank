@@ -3,7 +3,7 @@
 /* GLOBAL */
 
 * {
-  font-family: Impact, sans-serif !important;
+  font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
 }
 
 
@@ -57,14 +57,14 @@
   display: flex;
   justify-content: center;
   margin-top: 25px;
-  background: linear-gradient(black, #42e2f4)
+  background: (black, #42e2f4)
 
 }
 .nowPlaying {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(#42e2f4, black)
+  background: (#42e2f4, black)
 
 }
 
