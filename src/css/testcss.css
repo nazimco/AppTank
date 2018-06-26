@@ -121,22 +121,20 @@
   text-align: center;
 }
 
-.twitter {
-  border: solid white;
-  width: 30%;
-  height: 600px;
+
+
+.socialKhaled {
+  width: 100%;
+  height: 100%;
+
+  margin-top: 25px;
 }
 
-.snapchat {
-  border: solid white;
-  width: 30%;
-  height: 600px;
-}
+.feed {
+  margin-top: 25px;
+  width: 300px;
+  position: absolute;
 
-.instagram {
-  border: solid white;
-  width: 30%;
-  height: 600px;
 }
 
 

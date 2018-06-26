@@ -2,13 +2,46 @@ import React, { Component } from "react";
 import "../css/testcss.css";
 
 
+
+
+
+
+const KHALEDPATH = [
+  'https://i.imgur.com/2jSYK6H.jpg',
+  'http://rocnation.com/wp-content/uploads/2016/02/DJ-Klahed-FINAL-1000X500.jpg',
+  'https://i.imgur.com/JbcEnlb.jpg'
+];
+
 class About extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { currentKhaled: 0 };
+    this.interval = null;
+    this.nextKhaled = this.nextKhaled.bind(this);
+  }
+
+  nextKhaled() {
+    let current = this.state.currentKhaled;
+    let next = ++current % KHALEDPATH.length;
+    this.setState({ currentKhaled: next });
+  }
+
+  componentDiDMount() {
+    this.interval = setInterval(this.nextKhaled, 5000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
   render() {
+    let src = KHALEDPATH[this.state.currentKhaled];
     return (
       <div id="about">
       <div className="bio">
       <div className="profile">
-      <img className="headshot" src="https://i.imgur.com/2jSYK6H.jpg" alt="khaled" />
+      <img className="headshot" src={src} alt="khaledd" ></img>
       <h1>" DJ Khaled "</h1>
             </div>
       <h3> " Biography " </h3>
