@@ -42,20 +42,10 @@
 
 /* MUSIC */
 
-.songText1 {
-  margin-top: 30px;
-  margin-bottom: -10px;
-
-}
-
-.songText3 {
-  margin-top: -15px;
-  margin-bottom: -15px;
-}
-
-.song {
+.musicMain {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   margin-top: 25px;
   background: (black, #42e2f4)
 
@@ -66,18 +56,25 @@
   align-items: center;
   background: (#42e2f4, black)
 
+=======
+>>>>>>> d4853ae4919577c11ea01ca9c87735cfb9527ef1
 }
 
-.songList {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+.musicKhaled {
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
 
 }
-#selectBar {
-  width: 300px;
-  height: 25px;
-  border: solid white;
+
+.spotify {
+  margin-top: 100px;
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  left: 250px;
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
 }
 
 /* VIDEO */
@@ -88,7 +85,7 @@
 
 .khaledvid1 {
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-right: 90px;
   border: solid white;
 }
@@ -109,6 +106,23 @@
   border: solid white;
 }
 
+.leftArrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 300px;
+  top: 245px;
+  -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+.rightArrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 300px;
+  top: 245px;
+}
+
 /* SOCIAL */
 
 
@@ -120,22 +134,20 @@
   text-align: center;
 }
 
-.twitter {
-  border: solid white;
-  width: 30%;
-  height: 600px;
+
+
+.socialKhaled {
+  width: 100%;
+  height: 100%;
+
+  margin-top: 25px;
 }
 
-.snapchat {
-  border: solid white;
-  width: 30%;
-  height: 600px;
-}
+.feed {
+  margin-top: 25px;
+  width: 300px;
+  position: absolute;
 
-.instagram {
-  border: solid white;
-  width: 30%;
-  height: 600px;
 }
 
 

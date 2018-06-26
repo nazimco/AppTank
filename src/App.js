@@ -21,7 +21,7 @@ const App = () => {
         <Link to="/about"><Button primary >About</Button ></Link>
           <Link to="/music"><Button primary >Music</Button ></Link>
           <Link to="/video"><Button primary >Video</Button></Link>
-          <Link to="/socialmedia"><Button primary>Connect</Button ></Link>
+          <Link to="/socialmedia"><Button primary>Twitter</Button ></Link>
           <Link to="/shop"><Button primary >Shop</Button ></Link>
 
           <Route path="/music" component={Music} />
@@ -34,7 +34,6 @@ const App = () => {
         </navigation>
 
 
-      <hr />
       </div>
     </Router>
     );
