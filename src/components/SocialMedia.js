@@ -4,8 +4,6 @@ import axios from 'axios'
 import { Timeline } from 'react-twitter-widgets'
 // Timeline = require('react-twitter-widgets').Timeline
 
-import { Timeline } from 'react-twitter-widgets'
-// var Timeline = require('react-twitter-widgets').Timeline
  
 // ReactDOM.render((
 //   <Timeline
@@ -42,27 +40,6 @@ class SocialMedia extends Component {
   render() {
     return (
       <div id="socialmedia">
-<<<<<<< HEAD
-//   <Timeline
-    dataSource={{
-      sourceType: 'profile',
-      screenName: 'twitterdev'
-    }}
-    options={{
-      username: 'DJKhaled',
-      height: '400'
-    }}
-    onLoad={() => console.log('Timeline is loaded!')}
-  />
-       
-
-      
-        <div className="twitter">
-          <h2> Twitter </h2>
-        
-          
-        </div>
-=======
         <img className="socialKhaled" src="http://wallsdesk.com/wp-content/uploads/2016/10/DJ-Khaled-Background-.jpg" alt=""></img>
         <div className="feed">
         <Timeline
@@ -78,7 +55,6 @@ class SocialMedia extends Component {
         />
         </div>
 
->>>>>>> d4853ae4919577c11ea01ca9c87735cfb9527ef1
 
       </div>
     );
