@@ -66,14 +66,11 @@ class Video extends Component {
 
      return (
        <div className="vidMain">
+
          <div className="vid1">
-        <img className="leftArrow" src="https://i.imgur.com/3ZOLCql.png" alt="" />
-        <img className="rightArrow" src="https://i.imgur.com/3ZOLCql.png" alt="" />
-       <YouTube className="khaledvid1"
-            videoId={this.state.persons.khaled1}
-            opts={opts}
-            onReady={this._onReady}
-          />
+           <img className="videoKhaled" src="https://i.imgur.com/1dpP2z7.jpg" alt=""></img>
+             <iframe className="khaledvid1" width="650" height="400" src="https://www.youtube.com/embed/videoseries?list=PLXZwqjKREaTN6gighTdIbmwdeY8GTlQxB" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+             </iframe>
         </div>
           <footer>
           <img className="khaledmovie" src="https://i.imgur.com/zcZAQH3.png" alt="mov" />

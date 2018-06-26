@@ -18,9 +18,7 @@
   text-decoration: none !important;
 }
 
-#home {
-    background: linear-gradient(black, #42e2f4, black)
-}
+
 
 a {
 background-color: #42e2f4;
@@ -39,8 +37,8 @@ a:link {
 
 .Khaled {
   padding-top: 10px;
-  margin-left: 30px;
-  width: 95%;
+
+  width: 100%;
   height: 700px;
 }
 .ui.button {

@@ -3,7 +3,7 @@
 /* GLOBAL */
 
 * {
-  font-family: Impact, sans-serif !important;
+  font-family: Impact, sans-serif;
 }
 
 
@@ -15,30 +15,34 @@
   flex-direction: column;
   align-content: center;
   text-align: center;
-  padding: 0 25px 20px 25px;
-    margin-top: 10px;
-}
-.headshot {
-  height: 500px;
-  width: 800px;
-  margin-top: 50px;
-}
-.bio > h1 {
-  font-size: 30px;
-}
-.bio > h3 {
-  margin-top: -15px;
-  font-size: 25px;
-
+  margin-top: 10px;
 }
 
-.bio > p {
-  font-size: 22px;
-    margin-bottom: -10px;
-
+.aboutKhaled {
+height: 100%;
+width: 100%;
 }
 
+.aboutText {
+  position: absolute;
+  top: 120px;
+  right: 75px;
+  width: 25%;
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
+}
 
+.aboutText > h1 {
+  font-family: Arial;
+}
+
+.aboutText > h3 {
+  font-family: Arial;
+}
+
+.aboutText > p {
+  font-family: Arial;
+}
 
 /* MUSIC */
 
@@ -47,53 +51,82 @@
   justify-content: center;
 }
 
+.musicLogo {
+  height: 75px;
+  width: 150px;
+  position: absolute;
+  left: 430px;
+  top: 100px;
+  background: none;
+}
+
 .musicKhaled {
   width: 100%;
   height: 100%;
-  margin-top: 25px;
+  padding-top: 10px;
+}
 
+.musicText {
+  position: absolute;
+  left: 605px;
+  top: 100px;
+  color: #65D36E !important;
+  font-family: Arial !important;
+  background: none;
 }
 
 .spotify {
-  margin-top: 100px;
+  top: 185px;
   width: 1000px;
   height: 500px;
   position: absolute;
-  left: 250px;
-  border: solid 5px #42e2f4;
+  left: 265px;
+  border: solid 5px #65D36E;
   border-radius: 7px;
 }
 
 /* VIDEO */
+
+.videoText {
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  background: none;
+  color: #65D36E !important;
+  font-family: Arial !important;
+}
+
+.videoKhaled {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+
 .vid1 {
   display: flex;
   justify-content: center;
 }
 
 .khaledvid1 {
-  margin-top: 25px;
-  margin-left: 90px;
-  margin-right: 90px;
+
   border: solid white;
+  position: absolute;
+  left: 400px;
+  top: 170px;
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
 }
 
-.khaledvid2 {
-  border: solid white;
-
-}
-
-.khaledvid3 {
-  border: solid white;
-}
 
 .khaledmovie {
   margin-top: 20px;
   margin-left: 70px;
   width: 90%;
-  border: solid white;
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
 }
 
-.leftArrow {
+/* .leftArrow {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -108,7 +141,7 @@
   position: absolute;
   right: 300px;
   top: 245px;
-}
+} */
 
 /* SOCIAL */
 
@@ -117,7 +150,6 @@
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  margin-top: 25px;
   text-align: center;
 }
 
@@ -126,20 +158,26 @@
 .socialKhaled {
   width: 100%;
   height: 100%;
-
-  margin-top: 25px;
+  padding-top: 10px;
 }
 
 .feed {
   margin-top: 25px;
   width: 300px;
   position: absolute;
-
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
 }
 
 
 
 /* SHOP */
+
+.shopKhaled {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
 
 
 

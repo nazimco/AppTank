@@ -523,3 +523,9 @@ class SocialMedia extends Component {
 }
 
 export default SocialMedia;
+
+
+//BUTTONS
+
+<img className="leftArrow" src="https://i.imgur.com/3ZOLCql.png" alt="" />
+<img className="rightArrow" src="https://i.imgur.com/3ZOLCql.png" alt="" />
