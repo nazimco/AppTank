@@ -1,7 +1,9 @@
 
 
 /* GLOBAL */
-
+body{
+  margin: 0;
+}
 * {
   font-family: Impact, sans-serif;
 }
@@ -64,7 +66,7 @@ width: 100%;
 .musicLogo {
   height: 75px;
   width: 150px;
-  position: absolute;
+  /* position: absolute; */
   left: 430px;
   top: 100px;
   background: none;
@@ -77,7 +79,7 @@ width: 100%;
 }
 
 .musicText {
-  position: absolute;
+  /* position: absolute; */
   left: 605px;
   top: 100px;
   color: #65D36E !important;
@@ -87,10 +89,10 @@ width: 100%;
 
 .spotify {
   top: 185px;
-  width: 1000px;
+  width: 70vw;
+  margin-bottom: 20vw;
   height: 500px;
-  position: absolute;
-  left: 265px;
+  /* position: absolute; */
   border: solid 5px #65D36E;
   border-radius: 7px;
 }
@@ -121,7 +123,7 @@ width: 100%;
 
   border: solid white;
   position: absolute;
-  left: 400px;
+  left: 370px;
   top: 170px;
   border: solid 5px #42e2f4;
   border-radius: 7px;
@@ -174,7 +176,7 @@ width: 100%;
 .feed {
   margin-top: 25px;
   width: 300px;
-  position: absolute;
+  /* position: absolute; */
   border: solid 5px #42e2f4;
   border-radius: 7px;
 }

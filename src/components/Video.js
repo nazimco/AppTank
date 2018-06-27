@@ -69,7 +69,7 @@ class Video extends Component {
 
          <div className="vid1">
            <img className="videoKhaled" src="https://i.imgur.com/1dpP2z7.jpg" alt=""></img>
-             <iframe className="khaledvid1" width="650" height="400" src="https://www.youtube.com/embed/videoseries?list=PLXZwqjKREaTN6gighTdIbmwdeY8GTlQxB" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+             <iframe className="khaledvid1" width="750" height="500" src="https://www.youtube.com/embed/videoseries?list=PLXZwqjKREaTN6gighTdIbmwdeY8GTlQxB" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
              </iframe>
         </div>
           <footer>

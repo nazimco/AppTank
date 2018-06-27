@@ -1,0 +1,13 @@
+.musicMain{
+    width: 100vw;
+    
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url('https://wallpapersfit.com/wp-content/uploads/data/2017/11/26/DJ-Khaled-Wallpapers-HD-In-High-Definition-1WC200955.jpg')
+}
+
+.musicBackground{
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center
+}
+

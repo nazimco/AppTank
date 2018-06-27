@@ -1,0 +1,11 @@
+#socialmedia{
+    width: 100vw;
+    
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url('http://wallsdesk.com/wp-content/uploads/2016/10/DJ-Khaled-Background-.jpg')
+}
+
+@media (max-width: 400px) { 
+    
+}

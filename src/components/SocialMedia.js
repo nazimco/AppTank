@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/testcss.css';
+import '../css/SocialMedia.css';
 import axios from 'axios'
 import { Timeline } from 'react-twitter-widgets'
 // Timeline = require('react-twitter-widgets').Timeline
@@ -40,7 +41,7 @@ class SocialMedia extends Component {
   render() {
     return (
       <div id="socialmedia">
-        <img className="socialKhaled" src="http://wallsdesk.com/wp-content/uploads/2016/10/DJ-Khaled-Background-.jpg" alt=""></img>
+        
         <div className="feed">
         <Timeline
           dataSource={{
@@ -55,8 +56,7 @@ class SocialMedia extends Component {
         />
         </div>
 
-        <script src="//www.powr.io/powr.js?external-type=html"></script> 
- <div class="powr-instagram-feed" id="e9d3222d_1530064728"></div>
+
 
 
       </div>
