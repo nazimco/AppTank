@@ -55,6 +55,9 @@ class SocialMedia extends Component {
         />
         </div>
 
+        <script src="//www.powr.io/powr.js?external-type=html"></script> 
+ <div class="powr-instagram-feed" id="e9d3222d_1530064728"></div>
+
 
       </div>
     );

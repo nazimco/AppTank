@@ -17,6 +17,11 @@ class Music extends Component {
        <div className="musicMain">
 
   <div className="musicBackground">
+    <img className="musicLogo" src="http://www.stickpng.com/assets/images/59b5bb466dbe923c39853e00.png" alt="musiclogo"></img>
+
+    <h1 className="musicText">
+      Top 50 Tracks of All Times
+    </h1>
 
 
 <iframe className="spotify" src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DZ06evO0rer1m" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
