@@ -1,0 +1,16 @@
+#reactsx {
+    border:1px #fff solid;
+}
+
+  .explicit {
+
+  }
+
+.explicit::before {
+  content:"(Explicit) ";
+  color:red;
+}
+
+  .cleaned {
+
+  }
