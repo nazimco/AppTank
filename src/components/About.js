@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../css/componentcss.css";
+import "../css/About.css";
 
 
 

@@ -1,0 +1,33 @@
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.aboutKhaled {
+height: 100%;
+width: 100%;
+}
+
+.aboutText {
+  position: absolute;
+  top: 120px;
+  right: 75px;
+  width: 25%;
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
+}
+
+.aboutText > h1 {
+  font-family: Arial;
+}
+
+.aboutText > h3 {
+  font-family: Arial;
+}
+
+.aboutText > p {
+  font-family: Arial;
+}
