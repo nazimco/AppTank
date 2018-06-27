@@ -7,7 +7,7 @@ import MusicItem from './MusicItem';
 
     let buttonText="Hide explicit songs";
 
-class Video extends Component {
+class Itunes extends Component {
 
   renderMusic() {
     let loop=[];
@@ -51,8 +51,7 @@ class Video extends Component {
 
   render() {
     return (
-      <div id="Video">
-        <h1>Buy on iTunes</h1>
+      <div id="Itunes">
         <button onClick={this.switchExplicit.bind(this)}>{buttonText}</button>
           <div id="reactsx">
             <ul id="MusicList">
@@ -64,4 +63,4 @@ class Video extends Component {
   }
 }
 
-export default Video;
+export default Itunes;
