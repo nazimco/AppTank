@@ -1,0 +1,76 @@
+.musicMain{
+
+  display: flex;
+  justify-content: center;
+   width: 100%;
+   height: 800px;
+   margin-top: 10px;
+
+   background-size: cover;
+   background-repeat: repeat;
+   background-image: url('https://wallpapersfit.com/wp-content/uploads/data/2017/11/26/DJ-Khaled-Wallpapers-HD-In-High-Definition-1WC200955.jpg');
+   background-color: rgba(0, 0, 0, 0);
+   text-align: center;
+
+}
+
+
+.spotifyMain {
+     background-color: rgba(0, 0, 0, 0);
+       margin-top: 10vw;
+       margin-left: 20vw;
+       margin-right: 5vw;
+       display: flex;
+       flex-direction: column;
+}
+.youtubeMain {
+     background-color: rgba(0, 0, 0, 0);
+     margin-right: 20vw;
+     margin-top: 10vw;
+       display: flex;
+       flex-direction: column;
+}
+
+.spotifyLogoMain {
+  margin-bottom: -18vw;
+  background: none;
+}
+
+.musicLogo {
+  height: 75px;
+  width: 150px;
+  background: none;
+  background: black;
+  border: solid #65D36E;
+  border-radius: 7px;
+}
+
+.youtubeLogoMain {
+  margin-bottom: -18vw;
+  background: none;
+  margin-right: -10vw;
+}
+
+.youtubeLogo {
+  height: 75px;
+  width: 150px;
+  background: black;
+
+  border: solid #CD3E33;
+  border-radius: 7px;
+}
+
+
+.spotify {
+  margin-top: 18vw;
+  border: solid 5px #65D36E;
+  border-radius: 7px;
+}
+
+.youtubeKhaled {
+  margin-left: 10vw;
+  border: solid white;
+  margin-top: 18vw;
+  border: solid 5px #CD3E33;
+  border-radius: 7px;
+}

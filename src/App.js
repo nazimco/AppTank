@@ -6,7 +6,7 @@ import SocialMedia from './components/SocialMedia';
 import Music from './components/Music';
 import Shop from './components/Shop';
 import About from './components/About';
-import Itunes from './components/Itunes';
+import Itune from './components/Itune';
 
 
 
@@ -18,7 +18,7 @@ constructor(){
     nolineHome: "line",
     nolineAbout: "noline",
     nolineMusic: "noline",
-    nolineItunes: "noline",
+    nolineItune: "noline",
     nolineTwitter: "noline",
     nolineShop: "noline",
   }
@@ -33,8 +33,8 @@ handleClickAbout() {
 handleClickMusic() {
   this.toggleMenu("nolineMusic")
 }
-handleClickItunes() {
-  this.toggleMenu("nolineItunes")
+handleClickItune() {
+  this.toggleMenu("nolineItune")
 }
 handleClickTwitter() {
   this.toggleMenu("nolineTwitter")
@@ -48,7 +48,7 @@ toggleMenu(item){
     nolineHome: "noline",
     nolineAbout: "noline",
     nolineMusic: "noline",
-    nolineItunes: "noline",
+    nolineItune: "noline",
     nolineTwitter: "noline",
     nolineShop: "noline",
   };
@@ -75,7 +75,7 @@ toggleMenu(item){
           <Link className={this.state.nolineHome} onClick={this.handleClickHome.bind(this)}   to="/home">Home</Link>
           <Link className={this.state.nolineAbout} onClick={this.handleClickAbout.bind(this)} to="/about">About</Link>
           <Link className={this.state.nolineMusic}  onClick={this.handleClickMusic.bind(this)} to="/music">Stream Music</Link>
-          <Link  className={this.state.nolineItunes}   onClick={this.handleClickItunes.bind(this)} to="/Itunes">Buy Music</Link>
+          <Link  className={this.state.nolineItune}   onClick={this.handleClickItune.bind(this)} to="/itune">Buy Music</Link>
           <Link className={this.state.nolineTwitter}   onClick={this.handleClickTwitter.bind(this)} to="/socialmedia">Twitter</Link>
           <Link  className={this.state.nolineShop}  onClick={this.handleClickShop.bind(this)}  to="/shop">Shop</Link>
         </div>
@@ -83,7 +83,7 @@ toggleMenu(item){
 
           <Route path="/music" component={Music} />
           <Route path="/home" component={Home} />
-          <Route path="/itunes" component={Itunes} />
+          <Route path="/itune" component={Itune} />
           <Route path="/socialmedia" component={SocialMedia} />
           <Route path="/about" component={About} />
           <Route path="/shop" component={Shop} />

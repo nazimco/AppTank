@@ -1,0 +1,13 @@
+
+
+#itune {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   text-align: center;
+
+   background-size: cover;
+   background-repeat: repeat;
+   background-image: url('https://i.imgur.com/1dpP2z7.jpg')
+}
