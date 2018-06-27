@@ -30,12 +30,12 @@ class Music extends Component {
 
   <div className="musicBackground">
     <img className="musicLogo" src="http://www.stickpng.com/assets/images/59b5bb466dbe923c39853e00.png" alt="musiclogo"></img>
+    <iframe className="spotify" src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DZ06evO0rer1m" width="250" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+         
     <img className="youtubeLogo" src="https://static.wixstatic.com/media/f5fa78_13ce7301b332499abc0811ecc4d1d1d7.png" alt="youtubelogo"></img>
+    <iframe className="youtubeKhaled" width="600" height="350" src={this.state.persons.youtube} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-    <iframe className="youtubeKhaled" width="600" height="350" src={this.state.persons.youtube} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-<iframe className="spotify" src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DZ06evO0rer1m" width="250" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<img className="musicKhaled" src="https://wallpapersfit.com/wp-content/uploads/data/2017/11/26/DJ-Khaled-Wallpapers-HD-In-High-Definition-1WC200955.jpg" alt="key" />
+    <img className="musicKhaled" src="https://wallpapersfit.com/wp-content/uploads/data/2017/11/26/DJ-Khaled-Wallpapers-HD-In-High-Definition-1WC200955.jpg" alt="key" />
 
 </div>
 
