@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/testcss.css';
+import '../css/componentcss.css';
 import axios from 'axios'
 import { Timeline } from 'react-twitter-widgets'
 // Timeline = require('react-twitter-widgets').Timeline

@@ -45,17 +45,21 @@
 *******************************/
 * {
   background-color: black;
-  color: white !important;
+  color: white;
   font-family: Arial !important;
 
 }
 
 .line {
+  color: white;
   text-decoration: underline;;
+
 }
 
 .noline {
   text-decoration: none;
+  color: grey;
+
 }
 
 

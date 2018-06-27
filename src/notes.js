@@ -762,3 +762,51 @@ toggleMenu(item){
 }
 }
 export default App;
+
+
+//video
+
+
+import React, { Component } from 'react';
+import '../css/componentcss.css';
+import axios from "axios";
+import { Player } from 'video-react';
+import YouTube from 'react-youtube';
+
+
+
+
+class Video extends Component {
+
+
+  state = {
+     persons: {},
+   }
+
+   componentDidMount() {
+     axios.get(`http://localhost:3004/dj/`)
+       .then(res => {
+         const persons = res.data;
+         this.setState({ persons });
+       })
+   }
+
+   render() {
+     let src = this.state.persons.youtube;
+
+     return (
+       <div className="vidMain">
+
+         <div className="vid1">
+           <img className="videoKhaled" src="https://i.imgur.com/1dpP2z7.jpg" alt=""></img>
+             <iframe className="youtubeKhaled" width="750" height="500" src={this.state.persons.youtube} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+             </iframe>
+        </div>
+          <footer>
+          <img className="khaledmovie" src="https://i.imgur.com/zcZAQH3.png" alt="mov" />
+          </footer>
+       </div>
+     )
+   }
+  }
+export default Video;

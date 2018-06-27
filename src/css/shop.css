@@ -1,0 +1,118 @@
+
+/* Nav Bar Logo - We the Best */
+.divlogo{
+  float:left;
+  margin: 2em 2em;
+}
+
+.logo{
+  margin: 0 1em;
+  height: 60px;
+  width: 60px;;
+}
+
+/* Nav Bar */
+.bar {
+  padding-top: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+
+}
+
+.barText {
+  margin-right: 15px;
+}
+
+.icon{
+  height: 25px;
+  width: 50%;
+}
+
+.shoppingcart{
+  margin: 0 0 0 -2em;
+  height: 27px;
+  width: 35%;
+}
+
+/* Item Boxes */
+.box {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+
+
+  }
+
+  .one {
+    margin: 0em 8em;
+    width: 300px;
+    height: 250px;
+    flex: 1;
+    font-family: 'alternate-gothic-no-2-d';
+    font-size: 0.60em;
+    text-align: center;
+  }
+
+  .two {
+    margin: 0em 0em 0em -30em;
+    width: 300px;
+    height: 250px;
+    flex: 1;
+    font-family: 'alternate-gothic-no-2-d';
+    font-size: 0.60em;
+    text-align: center;
+  }
+
+  .three {
+    margin: 0em 0em 0em -20em;
+    width: 300px;
+    height: 250px;
+    flex: 1;
+    font-family: 'alternate-gothic-no-2-d';
+    font-size: 0.60em;
+    text-align: center;
+  }
+
+  /* Images */
+  .imageone{
+    height: 150px;
+    width: 12%;
+  }
+  .imagetwo{
+    height: 150px;
+    width: 19%;
+  }
+  .imagethree{
+    height: 150px;
+    width: 25%;
+  }
+  .imagefour{
+    height: 150px;
+    width: 20%;
+  }
+  .imagefive{
+    height: 150px;
+    width: 20%;
+  }
+  .imagesix{
+    height: 150px;
+    width: 18%;
+  }
+  .imageseven{
+    height: 150px;
+    width: 25%;
+  }
+  .imageeight{
+    height: 150px;
+    width: 18%;
+  }
+  .imagenine{
+    height: 150px;
+    width: 25%;
+  }

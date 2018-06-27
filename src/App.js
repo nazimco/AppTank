@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route,} from 'react-router-dom';
-import {Button} from 'semantic-ui-react';
 
 import Home from './components/Home';
 import SocialMedia from './components/SocialMedia';
