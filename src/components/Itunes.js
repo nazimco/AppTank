@@ -1,5 +1,4 @@
 import '../css/componentcss.css';
-import '../css/explicit.css';
 import React, { Component } from 'react';
 import MusicItem from './MusicItem';
 
