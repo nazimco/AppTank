@@ -182,3 +182,22 @@ width: 100%;
 
 
 /* MEDIA QUERY */
+@media only screen and (max-width: 786px) {
+    * {
+
+        text-align:center;
+    }
+    .NavBar {
+      display:flex;
+      flex-direction: column;
+      font-size:2em;
+      position:sticky;
+      top:0;
+      width:100%;
+    }
+
+    .NavBar a:hover
+    {
+      background-color:#222;
+    }
+}
