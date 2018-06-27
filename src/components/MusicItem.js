@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../css/explicit.css';
 import '../css/componentcss.css';
 
 class MusicItem extends Component {
