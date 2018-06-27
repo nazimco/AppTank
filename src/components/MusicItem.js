@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import '../css/testcss.css';
 import '../css/explicit.css';
+import '../css/componentcss.css';
 
 class MusicItem extends Component {
-
-constructor(props) {
-  super(props);
-}
 
   render() {
     return (
