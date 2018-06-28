@@ -24,14 +24,14 @@ class About extends Component {
        Khaled factored into several of the rowdiest and most triumphant
        crossover rap hits. </p>
        <p>His first nine albums, released from 2006 through 2016,
-       peaked within the Top Five of Billboards rap chart, supported by
+       peaked within the Top Five of the Billboard rap chart, supported by
        singles that often seemed like events. Many of the genres
        biggest names, including Rick Ross, Drake, and Jay-Z, eagerly took part.</p>
 
   <p>Cynics noted that Khaled rarely produced or wrote material and wondered
          if he did more than yell, self-promote, and flaunt. Meanwhile, others
-         were having too good a time to care, charmed by Khaleds fun-loving
-          spirit and or the well-placed talent that flanked him. </p>
+         were having too good a time to care, charmed by his fun-loving
+          spirit and the well-placed talent that flanked him. </p>
 
       </div>
 
