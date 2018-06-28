@@ -1,19 +1,13 @@
-
-
 #Itunes {
-
-
-   /* justify-content: center;
-   justify-content: space-around; */
-   /* text-align: center; */
-   /* background-size: cover;
-   background-repeat: repeat; */
-   margin-top: 10px;
+   background-image:url('https://img.wennermedia.com/article-leads-horizontal-1400/dj-khaled-asahd-705c6c54-844d-472d-9df0-f023e42d9e9e.jpg');
+   width:100%;
 }
 
 #reactsx {
-  width: 45%;
-    border:1px #fff solid;
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
+  background-color:black;
+  width:50%;
 }
 
 .explicit::before {
