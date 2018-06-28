@@ -1,19 +1,14 @@
-
-
-#itune {
-   width: 100vw;
-   display: flex;
-   justify-content: center;
-   justify-content: space-around;
-   text-align: center;
-
-   background-size: cover;
-   background-repeat: repeat;
-   background-image: url('https://i.imgur.com/1dpP2z7.jpg')
+#Itunes {
+   background-image:url('https://s3.amazonaws.com/hiphopdx-production/2017/06/DJ-Khaled-4-by-Mike-Lavin-@thehomelesspimp-1-800x600.jpg');
+   width:100%;
 }
 
 #reactsx {
-    border:1px #fff solid;
+  border: solid 5px #42e2f4;
+  border-radius: 7px;
+  background-color:black;
+  margin-left:3em;
+  width:50%;
 }
 
 .explicit::before {
