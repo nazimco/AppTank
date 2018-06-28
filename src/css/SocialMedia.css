@@ -4,17 +4,26 @@
    justify-content: center;
    justify-content: space-around;
    text-align: center;
+   margin-top: 10px;
 
    background-size: cover;
    background-repeat: repeat;
    background-image: url('http://wallsdesk.com/wp-content/uploads/2016/10/DJ-Khaled-Background-.jpg')
 }
 
+#socialmedia > p {
+  height: 10px;
+  background:none;
+  font-size: 20px;
+  text-decoration: bold;
+  font-family: Arial;
+}
+
 
 .feed {
   margin-top: 25px;
   width: 300px;
-  margin-right: -23vw;
+  margin-right: 5vw;
 
   border: solid 5px #42e2f4;
   border-radius: 5px;
