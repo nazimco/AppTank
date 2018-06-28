@@ -126,4 +126,43 @@
       border-radius: 7px;
     }
 
+    /* ITUNES */
+
+    #Itunes {
+       background-image:url('https://s3.amazonaws.com/hiphopdx-production/2017/06/DJ-Khaled-4-by-Mike-Lavin-@thehomelesspimp-1-800x600.jpg');
+       width:auto;
+    }
+
+    #reactsx {
+      border: solid 5px #42e2f4;
+      border-radius: 7px;
+      background-color:black;
+      margin:auto;
+      width:auto;
+    }
+
+    /*SHOP*/
+
+    #shop {
+      text-align:center;
+      margin:0;
+    }
+
+    .box {
+      text-align:center;
+      margin-left:99px;
+    }
+
+    .one{
+      display:none;
+    }
+    .two{
+      display:none;
+    }
+
+    .three{
+      text-align:center;
+      margin:0;
+    }
+
 }
