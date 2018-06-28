@@ -26,6 +26,15 @@ class SocialMedia extends Component {
   render() {
     return (
       <div id="socialmedia">
+        <p>
+        "You smart"
+      </p>
+      <p>
+        "You loyal"
+        </p>
+      <p>
+        "I appreciate that"
+        </p>
         <div className="feed">
         <Timeline
           dataSource={{
