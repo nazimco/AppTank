@@ -52,7 +52,9 @@ class Itunes extends Component {
   render() {
     return (
       <div id="Itunes">
+          <div className="filters">
         <button onClick={this.switchExplicit.bind(this)}>{buttonText}</button>
+        </div>
           <div id="reactsx">
             <ul id="MusicList">
               {this.renderMusic()}
