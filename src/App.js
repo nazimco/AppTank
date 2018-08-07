@@ -72,7 +72,7 @@ toggleMenu(item){
       <Router>
       <div id="gify" className="App">
         <div className="NavBar">
-          <Link className={this.state.nolineHome} onClick={this.handleClickHome.bind(this)}   to="/home">Home</Link>
+          <Link className={this.state.nolineHome} onClick={this.handleClickHome.bind(this)}   to="/">Home</Link>
           <Link className={this.state.nolineAbout} onClick={this.handleClickAbout.bind(this)} to="/about">About</Link>
           <Link className={this.state.nolineMusic}  onClick={this.handleClickMusic.bind(this)} to="/music">Stream Music</Link>
           <Link  className={this.state.nolineItunes}   onClick={this.handleClickItunes.bind(this)} to="/itunes">Buy Music</Link>
@@ -82,7 +82,7 @@ toggleMenu(item){
         <div className="Router">
 
           <Route path="/music" component={Music} />
-          <Route path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/itunes" component={Itunes} />
           <Route path="/socialmedia" component={SocialMedia} />
           <Route path="/about" component={About} />
