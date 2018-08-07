@@ -18,7 +18,11 @@
     "video-react": "^0.11.2"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "node ./server/index.js",
+=======
+    "start": "node index.js",
+>>>>>>> 34c1426e7abc86af07efa70231337be665dcac4b
     "heroku-postbuild": "npm install && npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
