@@ -7,6 +7,7 @@ const app = express();
 app.use(express.static(`${__dirname}/../build`));
 
 app.get('/', (req, res) => {
+  console.log("=======Request Received!=======")
   res.end();
 })
 
@@ -14,4 +15,6 @@ app.get('/dj', (req, res) => {
   res.send(data.dj.youtube);
 })
 
-app.listen(5000, () => console.log("Im listening on port 5000"));
+const PORT = process.env.PORT || 5000
+
+app.listen(PORT, () => console.log("Im listening on port " + PORT));
