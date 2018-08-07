@@ -82,7 +82,7 @@ toggleMenu(item){
         <div className="Router">
 
           <Route path="/music" component={Music} />
-          <Route path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/itunes" component={Itunes} />
           <Route path="/socialmedia" component={SocialMedia} />
           <Route path="/about" component={About} />
